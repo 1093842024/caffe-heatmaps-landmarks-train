@@ -4,14 +4,18 @@ self-design an train stratege with caffe refering to openpose thought
 ##create traindata and mask label file
 
 >1)generate_landmarksface_celebA.py
+
 >2)generate_maps.py
+
 >3)create_lmdb.py
 
 ##train & deploy prototxt ,solver file
 
 >1)train_3stage.prototxt
+
 >2)deploy_3stage.prototxt
->3)solver.prototxt
+
+>3)solver.prototxt(need modify)
 
 ##eval result
 
