@@ -1,0 +1,20 @@
+net: "/home/work/glenn/gitmodel/caffe-face/face_example/landmarks_data/train_map/train_3stage.prototxt"
+# The base learning rate, momentum and the weight decay of the network.
+base_lr: 0.001 
+momentum: 0.9
+weight_decay: 0.0005
+lr_policy: "multistep"
+stepvalue:5000
+stepvalue:12000
+stepvalue:20000
+stepvalue:30000
+gamma: 0.3
+# Display every 10 iterations
+display: 20
+# The maximum number of iterations
+max_iter: 1000
+# snapshot intermediate results
+snapshot: 3000
+snapshot_prefix: "/home/work/glenn/gitmodel/caffe-face/face_example/landmarks_data/train_map/snapshot"
+solver_mode: GPU
+
